@@ -4,9 +4,11 @@
 /*more headers goes there*/
 
 /*betty style doc for function main goes there*/
-/*This function checks if a number is positive, negative or zero*/
+/**
+*This function checks if a number is positive, negative or zero
+*Returns: One of the three outcomes positive, negative or zero 
+*/
 int main(void)
-    /*This function checks if a number is positive, negative or zero*/
 {
 	int n;
 
