@@ -6,7 +6,7 @@
 /*betty style doc for function main goes there*/
 /**
 * main - checks if the value of n is positive, zero or negative
-* 
+*
 * Description: This function checks if a number is positive, negative or zero
 * Return: One of the three outcomes positive, negative or zero is returned by
 * function main
