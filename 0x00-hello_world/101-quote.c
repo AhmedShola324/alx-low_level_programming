@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
- * main - print a phrase without using printf and puts to the 
+ * main - print a phrase without using printf and puts to the
  * standard error
  *
  * Description: This program uses write to solve this problem
