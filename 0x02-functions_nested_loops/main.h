@@ -3,3 +3,4 @@
  * files in this folder
  */
 int _putchar(char c);
+void print_alphabet(void);
