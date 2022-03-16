@@ -4,7 +4,7 @@
  * returns 0 and prints 0 if n is zero
  * returns -1 and prints - if n is less than zero
  * @n: is of type integer
- * return 0 1 or -1
+ * Return: 0 1 or -1
  */
 int print_sign(int n)
 {
@@ -16,11 +16,11 @@ int print_sign(int n)
 	else if (n < 0)
 	{
 		_putchar('-');
-		return(-1);
+		return (-1);
 	}
 	else
 	{
 		_putchar(48);
-		return(0);
+		return (0);
 	}
 }
