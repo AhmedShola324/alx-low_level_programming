@@ -9,4 +9,4 @@ and 0 respectively.
 1 for both upper and lowercase and 0 for others.
 - 5-sign: the function check if the argument is zero, greater than or less than one and then
 print 0, + or - and also return 0, 1, or -1 respectively.
-_
+- 6-abs: the fuction returns the absolute value of an integer._
