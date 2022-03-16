@@ -7,4 +7,6 @@ characters ten times.
 and 0 respectively.
 - 4-isalpha: the function here checks if a character is lower, uppercase or neither returns 
 1 for both upper and lowercase and 0 for others.
-- 5
+- 5-sign: the function check if the argument is zero, greater than or less than one and then
+print 0, + or - and also return 0, 1, or -1 respectively.
+_
