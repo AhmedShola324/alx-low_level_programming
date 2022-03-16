@@ -17,18 +17,23 @@ void times_table(void)
 		{
 			z = i * m;
 
-			if (z > 9)
+			if (z > 9)/*change numbers greater than 9 10 their ascii values*/
 			{
 				_putchar((z / 10) + '0');
 				_putchar((z % 10) + '0');
-				_putchar(',');
-				_putchar(' ');
 			}
-			else
+			else if (m != 0)/*space is included*/
+			{
+				_putchar(' ');
+				_putchar(z + '0');
+			}
+			else/*just print the ascii value of the equation*/
 			{
 				_putchar(z + '0');
+			}
+			if (m != 9)/*comma would be added to values when m is not 9 */
+			{
 				_putchar(',');
-				_putchar(' ');
 				_putchar(' ');
 			}
 			m++;
