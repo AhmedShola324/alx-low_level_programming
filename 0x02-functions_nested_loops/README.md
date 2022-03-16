@@ -10,4 +10,5 @@ and 0 respectively.
 - 5-sign: the function check if the argument is zero, greater than or less than one and then
 print 0, + or - and also return 0, 1, or -1 respectively.
 - 6-abs: the fuction returns the absolute value of an integer.
-- 7-last_digit: the function here prints the last digit of a number _
+- 7-last_digit: the function here prints the last digit of a number
+- 8-24_hours: the function here prints time in a day 
