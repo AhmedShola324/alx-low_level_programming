@@ -13,4 +13,5 @@ print 0, + or - and also return 0, 1, or -1 respectively.
 - 7-last_digit: the function here prints the last digit of a number
 - 8-24_hours: the function here prints time in a day
 - 9-times_table: the function here prints the times table from 0-9
-- 10-print_to 98: prints the natural numbers from the argument to 98  
+- 10-add: the function returns the addition of two integers
+- 11-print_to 98: prints the natural numbers from the argument to 98  
