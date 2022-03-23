@@ -3,19 +3,20 @@
  * print_rev - prints strings in a reverse order
  * @s: is a pointer of char type.
  */
+
 void print_rev(char *s)
 {
-	int count = 0;
+	int i = 0;
 
-	while (s[count] != '\0')
+	while (s[i] != '\0')
 	{
-		count++;
+		i++;
 	}
-	count--;
-	while (s[count] >= 0)
+	i--;
+	while (i >= 0)
 	{
-		_putchar(s[count]);
-		count--;
+		_putchar(s[i]);
+		i--;
 	}
 	_putchar('\n');
 }
